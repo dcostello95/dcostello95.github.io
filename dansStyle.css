@@ -1,0 +1,26 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+	font-family: cambria;
+    color: navy;
+    margin-left: 20px;
+}
+p {
+	color: green;
+	margin-left: 10px;
+	font-family: Arial;
+	font-size: 14px;
+}
+h3 {
+	color: darkgreen;
+	margin-left: 10px;
+	font-family: Verdana;
+	
+}
+h4 {
+	font-family: Verdana;
+	font-size: 19px;
+	color: purple; 
+}
