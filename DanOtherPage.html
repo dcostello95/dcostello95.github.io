@@ -1,24 +1,50 @@
 <!DOCTYPE html> 
 <html lang="en-us"> 
 <head>
+<link href="https://fonts.googleapis.com/css?family=Raleway|Shrikhand" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="dansStyle.css"> 
+
 <title> Dan's Other Page</title>
+<script type="text/javascript">
+<!--
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
+//-->
+</script>
+<script>
+function nameQuestion() {
+    document.getElementById("danForm").submit();
+}
+</script>
 </head>
 <body> 
-<h3> You made it to my other page!</h3>
-<p> Here's a list of strange words:</p>
+<body background= "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR3BwkU20aQXJK_zDlSQxyXfyNVEOBJINMlABQo7e6nr2C14dOltg">
+<center><h1> You made it to my other page!</h1></center>
+
+<a href="#" onclick="toggle_visibility('foo');">Click here to toggle seeing the list </a>
+<div id="foo"><p><strong> Here's a list of strange words:</strong></p>
 <ol>
-<li style="color:green"> DOODLE SACK - (n)Old wnglish word for bagpipe </li>
+<strong><li style="color:green"> DOODLE SACK - (n)Old wnglish word for bagpipe </li>
 <li style="color:blue"> PETRICHOR - (n) The smell of earth after rain </li>
 <li style="color:red"> HALFPACE - (n) A platform of a staircase where the stair turns back in exactly the reverse direction of the lower flight</li>
 <li> IMPIGNORATE - v. To pawn or mortgage something</li>
 <ul> <li><b> not to impregnate a pig<b> </li> </ul>
-</ol>
+</ol></div></strong>
+
 <p>Designed by:</p>
 <span class ="author"> Dan Costello </span>
-<img src="dcostello95.github.io/images/moab fall break goat path .jpg" alt="Dan" style="width:200px;height:350px;">
-
-<p> Contact me:</p>
 <a href="file:///C:/Users/Dan/Documents/Web%20and%20Database%20App/Personal%20Site/DansPage.html" target="_blank"><h4>Home Page</a> </h4>
+
+<form id="danForm" action="form_action.asp">
+  Name: <input type="text" name="fname"><br>
+  Question/Comment: <input type="text" name="lname"><br><br>
+  <input type="button" onclick="myFunction()" value="Submit">
+</form>
+
 </body>
 </html> 
