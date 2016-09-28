@@ -1,26 +1,35 @@
 body {
-    background-color: lightblue;
+    
+	font-family: 'Raleway', sans-serif;
+
 }
 
 h1 {
-	font-family: cambria;
-    color: navy;
+	font-family: 'Shrikhand', cursive; 
+    color: Salmon;
     margin-left: 20px;
 }
 p {
-	color: green;
+	color: LightYellow;
 	margin-left: 10px;
-	font-family: Arial;
-	font-size: 14px;
+	font-size: 18x;
+	font-family: 'Raleway', sans-serif;
+
 }
 h3 {
-	color: darkgreen;
-	margin-left: 10px;
-	font-family: Verdana;
+	color:snow ;
+	margin-left: 12px;
+	font-family: 'Raleway', sans-serif;
+
 	
 }
 h4 {
-	font-family: Verdana;
+	font-family: 'Shrikhand', cursive; 
 	font-size: 19px;
-	color: purple; 
+	color: snow; 
+}
+
+h5{
+		font-family: 'Shrikhand', cursive; 
+		color:LightYellow
 }
